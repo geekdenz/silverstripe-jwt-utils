@@ -3,6 +3,8 @@
 use \Firebase\JWT\JWT as JWT;
 use \Carbon\Carbon;
 use \Ramsey\Uuid\Uuid;
+use SilverStripe\Core\Config\Config;
+use SilverStripe\Control\Director;
 
 /**
  * Utility Class for handling JWTs.
