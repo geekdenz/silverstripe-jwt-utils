@@ -1,6 +1,6 @@
 {
-  "name": "level51/silverstripe-jwt-utils",
-  "version": "0.1.0",
+  "name": "geekdenz/silverstripe-jwt-utils",
+  "version": "4.0.0",
   "time": "2018-02-03",
   "license": "MIT",
   "type": "silverstripe-module",
@@ -9,9 +9,14 @@
     {
       "name": "Julian Scheuchenzuber",
       "email": "js@lvl51.de"
+    },
+    {
+      "name": "Tim-Hinnerk Heuer",
+      "email": "th.heuer@gmail.com"
     }
   ],
   "require": {
+    "php": ">=7.0.0",
     "firebase/php-jwt": "^5.0.0",
     "nesbot/carbon": "^1.9.0",
     "ramsey/uuid": "^3.7.3"
